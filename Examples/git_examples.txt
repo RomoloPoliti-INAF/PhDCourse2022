@@ -1,0 +1,34 @@
+Dopo aver creato il repository su gitHub:
+
+git clone
+touch tes.txt
+git add test.txt
+git commit -m "First Commit"
+git push
+git branch testing
+git checkout testing
+touch test2.txt
+git add *
+git commit -m "Second Commit"
+git push --set-upstream origin testing
+git switch main
+touch test3.txt
+git commit -m "Third Commit"
+git push
+git switch testing
+touch test4.txt
+git add *
+git commit -m "Fourth Commit"
+git push
+echo "Linea di prova\n" >>test.txt
+git status
+git commit -a -m "Fifth Commit"
+git push
+git log --oneline --graph
+git switch main
+git merge testing
+touch test6.txt
+git add test6.txt
+git commit -m "Sixth Commit"
+git push
+git log --oneline --graph
