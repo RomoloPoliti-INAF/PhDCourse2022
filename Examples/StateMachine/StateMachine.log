@@ -1,9 +1,9 @@
-06/01/2022 12:32:55 AM | DEBUG    | StateMachine | newState   | <module>             | Starting the Machine SIM
-06/01/2022 12:32:55 AM | DEBUG    | StateMachine | newState   | run                  | Reading the command file timeline.txt
-06/01/2022 12:32:56 AM | INFO     | StateMachine | newState   | run                  | TM(1,1)
-06/01/2022 12:32:56 AM | INFO     | StateMachine | newState   | run                  | Executing NSS00001: Boot Command (0.9999918937683105)
-06/01/2022 12:33:03 AM | INFO     | StateMachine | newState   | run                  | TM(1,1)
-06/01/2022 12:33:03 AM | INFO     | StateMachine | newState   | run                  | Executing NSS00003: PE ON Command (7.999920129776001)
-06/01/2022 12:33:07 AM | INFO     | StateMachine | newState   | run                  | TM(1,1)
-06/01/2022 12:33:07 AM | INFO     | StateMachine | newState   | run                  | Executing NSS00002: Shuting Down Command (11.99988079071045)
-06/01/2022 12:33:07 AM | INFO     | StateMachine | newState   | run                  | The execution of the timeline is finished
+06/01/2022 09:55:56 AM | DEBUG    | StateMachine | newState   | <module>             | Starting the Machine SIM
+06/01/2022 09:55:56 AM | DEBUG    | StateMachine | newState   | run                  | Reading the command file timeline.txt
+06/01/2022 09:55:57 AM | INFO     | StateMachine | newState   | run                  | TM(1,1)
+06/01/2022 09:55:57 AM | INFO     | StateMachine | newState   | run                  | Executing NSS00001: Boot Command (0.9999911785125732)
+06/01/2022 09:56:04 AM | INFO     | StateMachine | newState   | run                  | TM(1,1)
+06/01/2022 09:56:04 AM | INFO     | StateMachine | newState   | run                  | Executing NSS00003: PE ON Command (7.999921083450317)
+06/01/2022 09:56:08 AM | INFO     | StateMachine | newState   | run                  | TM(1,1)
+06/01/2022 09:56:08 AM | INFO     | StateMachine | newState   | run                  | Executing NSS00002: Shuting Down Command (11.999880075454712)
+06/01/2022 09:56:08 AM | INFO     | StateMachine | newState   | run                  | The execution of the timeline is finished
