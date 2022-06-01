@@ -1,0 +1,4 @@
+TC,Destination,IntitialState,TransientState,FinalState,Descrption
+NSS00001,ME,OFF,BUSY,IDLE,ME Switch on
+NSS00002,ME,IDLE,BUSY,OFF,ME Switch off
+NSS00003,PE,OFF,BUSY,ON,PE Switch on
