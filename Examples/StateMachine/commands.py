@@ -33,15 +33,15 @@ class MECommands:
         self.console = console
 
     @message(text='Booting...')
-    def NSS00001(self):
+    def NSS00001(self,*args, **kwargs):
         """Boot Command"""
         print(f'{MSG.INFO}[magenta]TM(5,1)[/magenta] - Boot Report')
-        sleep(5)
+        sleep(1)
 
     @message(text='Shuting down...')
-    def NSS00002(self):
+    def NSS00002(self,*args,**kwargs):
         """Shuting Down Command"""
-        sleep(5)
+        sleep(1)
 
 
 class PECommands:
@@ -50,6 +50,14 @@ class PECommands:
         self.console = console
 
     @message(text="PE...ON ")
-    def NSS00003(self):
+    def NSS00003(self,*args, **kwargs):
         """PE ON Command"""
+        sleep(1)
+    
+    @message(text="Image acquisition...")
+    def NSS00004(self,*args, **kwargs):
+        "Image acquisition"
+        print(kwargs['cmdInfo'][:-1])
+        if kwargs['cmdInfo']['param'][0]==1:
+            print(f'{MSG.INFO}[magenta]TM(5,1)[/magenta] - Image acquisition')
         sleep(1)

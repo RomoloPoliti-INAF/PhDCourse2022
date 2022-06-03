@@ -10,7 +10,7 @@
             "name": "NewState",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceRoot}/Examples/StateMachine/newState.py",
+            "program": "${workspaceRoot}/Examples/StateMachine/newState3.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["-dv"],
