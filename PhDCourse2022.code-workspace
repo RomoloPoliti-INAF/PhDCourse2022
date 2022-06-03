@@ -8,9 +8,6 @@
 		}
 	],
 	"settings": {
-		// "terminal.integrated.shellIntegration.enabled": true,
-		"terminal.integrated.fontFamily": "MesloLGS NF",
-		"workbench.colorTheme": "Default Dark+",
 		"logViewer.watch": [
 			{
 				"title": "General Log",

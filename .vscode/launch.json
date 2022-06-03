@@ -10,11 +10,22 @@
             "name": "NewState",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceRoot}/Examples/StateMachine/newState3.py",
+            "program": "${workspaceRoot}/Examples/StateMachine/newState.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["-dv"],
             
+        },
+        {
+            "name": "NewState",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/Examples/StateMachine/newState2.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "-dv"
+            ],
         }
     ]
 }
