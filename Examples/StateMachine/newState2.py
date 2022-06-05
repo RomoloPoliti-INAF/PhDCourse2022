@@ -23,7 +23,7 @@ from exceptions import *
 from loginit import logInit
 from os import environ
 
-console = Console()
+console = Console(width=80)
 
 
 def fPath(fName: str) -> Path:
@@ -356,6 +356,9 @@ def interact(machine, timer: Clock, fName: str = 'cmd.csv',
              verbose: bool = False):
     environ.setdefault('TIMELINE_FILE', fName)
     id=0
+    console.rule(style='green')
+    console.print(f"StateMachine - Interactive Mode",style="bold red on yellow",justify="center")
+    console.rule(style='green')
     while True:
         cmd=Prompt.ask('command')
         cmd=cmd.strip().upper()
