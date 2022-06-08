@@ -233,7 +233,7 @@ class PE(StateMachine):
             retVal=self.do(cmd, id,cmdInfo)
         else:
             raise Command_Error(cmd, id)
-    pass
+        return retVal
 
 
 class ME(StateMachine):
@@ -280,6 +280,7 @@ def run(machine, timer: Clock, fName: str = 'timeline.txt',
         else:
             parts = line.strip().split(',')
             while True:
+                
                 now = timer.getSeconds()
                 if math.isclose(now, float(parts[0]), rel_tol=tollerance):
                     i += 1
@@ -291,7 +292,11 @@ def run(machine, timer: Clock, fName: str = 'timeline.txt',
                         print(
                             f"{MSG.INFO}Executing {parts[1]}: {machine.cmd_description(parts[1])} ({now})")
                     try:
-                        cmdInfo={'cmd':parts[1],'param':parts[2:]}
+                        if len(parts)> 2:
+                            tmp=parts[2:]
+                        else:
+                            tmp=None
+                        cmdInfo={'cmd':parts[1],'param':tmp}
                         machine.run(parts[1], id=i,cmdInfo=cmdInfo)
                     except Command_Error as e:
                         # definire un 1,2

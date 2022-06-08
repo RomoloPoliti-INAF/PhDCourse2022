@@ -17,10 +17,10 @@
             
         },
         {
-            "name": "NewState",
+            "name": "NewState3",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceRoot}/Examples/StateMachine/newState2.py",
+            "program": "${workspaceRoot}/Examples/StateMachine/newState3.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
