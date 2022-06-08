@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 06/03/2022 05:29:53 PM | DEBUG    | StateMachine | newState3  | <module>             | Starting the Machine SIM
 06/03/2022 05:29:53 PM | DEBUG    | StateMachine | newState3  | run                  | Reading the command file timeline.txt
+=======
+06/04/2022 09:24:26 AM | DEBUG    | StateMachine | newState2  | <module>             | Starting the Machine SIM
+>>>>>>> 3f9a2b75d62da364500ab2e812e89690645b2ae2
