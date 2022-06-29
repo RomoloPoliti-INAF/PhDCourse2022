@@ -1,0 +1,7 @@
+06/08/2022 05:20:16 PM | DEBUG    | StateMachine | stateMachine | <module>             | Starting the Machine ME
+06/08/2022 05:20:16 PM | DEBUG    | StateMachine | stateMachine | batch                | Reading the command file timeline.txt
+06/08/2022 05:20:17 PM | INFO     | StateMachine | classes    | run                  | TM(1,1)
+06/08/2022 05:20:17 PM | INFO     | StateMachine | classes    | run                  | Executing NSS00001: ME Switch on
+06/08/2022 05:20:30 PM | INFO     | StateMachine | classes    | run                  | TM(1,1)
+06/08/2022 05:20:30 PM | INFO     | StateMachine | classes    | run                  | Executing NSS00006: Compressor Switch ON
+06/08/2022 05:20:37 PM | INFO     | StateMachine | stateMachine | batch                | The execution of the timeline is finished
