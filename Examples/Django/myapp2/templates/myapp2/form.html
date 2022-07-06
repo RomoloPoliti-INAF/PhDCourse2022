@@ -1,6 +1,6 @@
 {% include 'myapp2/_base.html' %}
 {% block content %}
-<h1 class="text-center">New Entry</h1>
+<h1 class="text-center">{{ main }}</h1>
 <form action="{{ action }}" method="post">
 {% csrf_token %}
 <fieldset>

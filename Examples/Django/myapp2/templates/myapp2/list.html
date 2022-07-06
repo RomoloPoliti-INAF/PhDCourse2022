@@ -14,6 +14,7 @@
 <table class="table table-hover">
     <thead>
         <tr><th>Nome</th><th>Email</th>
+        <th>Lavoro</th>
         <th class="text-end">Tools</th>
         </tr>
     </thead>
@@ -21,6 +22,7 @@
         {% for item in data %}
         <tr>
             <td><a href="{% url 'scheda2' item.pk %}">{{ item.name }} {{ item.surname }}</a></td>
+            <td>{{ item.lavoro }}</td>
             <td>{{ item.email }}</td>
             <td class="text-end">
                 <div class="btn-group" role="group" aria-label="Basic example">

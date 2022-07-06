@@ -40,6 +40,7 @@ def add(request):
             
     context={
         'title': 'Add data',
+        'main' : 'New Entry',
         'formset': form,
         'label': 'Add',
         'action': '/myapp2/list/add/',
@@ -58,7 +59,8 @@ def edit(request,id):
         form = ExampleForm(instance=get_object_or_404(Example,id=id))
             
     context={
-        'title': 'Add data',
+        'title': 'Modify data',
+        'main': 'Modify Entry',
         'formset': form,
         'label': 'Update',
         'action': f'/myapp2/list/edit/{id}/',

@@ -13,8 +13,7 @@
     <div>
         <div class="mb-3">
             <span style="color:red;">{{ form.email.errors }}</span>
-        <input type="email" class="form-control" placeholder="{{ form.email.label }}" aria-label="{{ form.email.label }}"
-            value="{{ form.email.value| default:'' }}" name="{{ form.email.html_name }}">
+            {{ form.email }}
         </div>
         <div class="mb-3">
             <span style="color:red;">{{ form.text.errors }}</span>
@@ -22,4 +21,7 @@
             placeholder="{{ form.text.label }}" aria-label="{{ form.text.label }}"
              name="{{ form.text.html_name }}">{{ form.text.value| default:'' }}</textarea>
         </div>
+        <div class="mb-3">
+            {{ form.lavoro }}
+        <div>
     </div>
